@@ -1,0 +1,130 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    background-color: #1b1c20;
+    height: 800px;
+}
+.detailContainerBox{
+    display: flex;
+    justify-content: center;
+}
+.detailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px 10px;
+}
+.detailBoxOne{ 
+    display: flex;
+    padding-bottom: 10px;
+    
+}
+.detailBoxTwo {
+    display: flex;
+}
+.rankBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 188, 52);
+    background-color: #1b1c20;
+    padding: 5px;
+    border-radius: 10px;
+}
+.detailBoxThree {
+    display: flex;
+}
+.boxShowVersionOne{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.dataShowTop{
+    display: flex;
+    align-items: end;
+}
+.dataName{
+    font-weight: bolder;
+}
+.dataSymbol{
+    font-size: 10px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+}
+.dataShowUnder{
+    display: flex;
+}
+.boxShowVersionTwo{
+
+}
+.dataDard{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    
+    border-top: 1px gray solid;
+    border-right: 1px gray solid;
+    padding: 20px 10px;
+}
+.dataDardTwo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    border-top: 1px gray solid;
+    padding: 20px 10px;
+}
+.dataDardThree{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-right: 1px gray solid;
+    padding: 20px 10px;
+}
+.dataDardFour{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    padding: 20px 10px;
+}
+.numberShow{
+    font-weight: lighter;
+    padding-top: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: rgb(255, 188, 52);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: max-content;
+    margin-left: 20px;
+}
+.button:hover{
+    color: #1b1c20;
+    background-color: rgb(255, 188, 52);
+}
+.topBar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.chart{
+    
+}
+.chartBox{
+    height: 200px;
+    width: 100%;
+}

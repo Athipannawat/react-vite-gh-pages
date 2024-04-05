@@ -1,0 +1,20 @@
+.itemBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px gray solid;
+}
+.barLetf{
+    display: flex;
+    align-items: center;
+}
+.itemRank{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item {
+    width: 150px;
+}

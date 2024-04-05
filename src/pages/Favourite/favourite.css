@@ -1,0 +1,31 @@
+.itemcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.itemBoxShow,
+.itemFavShow {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px gray solid;
+}
+
+.itemBoxShow:hover,
+.itemListDetail:hover {
+    background-color: #1b1c20;
+    color: rgb(255, 188, 52);
+}
+
+.itemListDetail {
+    display: flex;
+    color: #428bca;
+}
+
+.itemList {
+    text-align: center;
+}

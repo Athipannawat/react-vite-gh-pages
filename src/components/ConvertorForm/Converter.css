@@ -1,0 +1,37 @@
+.converterCon{
+    display: flex;
+    justify-content: center;
+}
+.converterCard{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.converterBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.converterInput{
+    padding-bottom: 9px;
+    padding-right: 10px;
+    border-right: 1px gray solid;
+}
+.converterSelect{
+    padding-left: 5px;
+    width: 220px;
+
+}
+.converterOutput{
+    min-width: 165px;
+    border-right: 1px gray solid;
+    padding: 7px 10px 7px 0px;
+
+}
