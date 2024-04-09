@@ -1,1 +1,1 @@
-export const BASE_GITHUB_URL = "/crypto-currency-app/";
+export const BASE_GITHUB_URL = "/react-vite-gh-pages/";
