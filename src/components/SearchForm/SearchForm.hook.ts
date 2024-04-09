@@ -1,16 +1,15 @@
-import React, { useEffect } from 'react'
-import { cryptroListServices,cryptroDetailServices } from '../../service/index'
+import { useEffect } from 'react'
+import { cryptroListServices } from '../../service/index'
 import { useForm } from 'react-hook-form'
 import { useCryptoListStore } from '../../store/cryptoList'
 
 const useSearchForm = () => {
-    const { register, handleSubmit, watch, formState: {errors}  } = useForm()
+    const { register, watch  } = useForm()
     const {setfetchCryptroList} = useCryptoListStore()
     const keyword = watch("limit")
 
     const callData = async (limit:number) => {
         const responseList = await cryptroListServices.getCryptroList(0,limit)
-        const crypList = []
         setfetchCryptroList({data: [],loading: true,error: null,})
 
         if(responseList.status === 200 ){

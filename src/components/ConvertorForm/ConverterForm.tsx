@@ -1,4 +1,3 @@
-import React from 'react'
 import { useCryptoListStore } from '../../store/cryptoList'
 import { useConverterForm } from './ConverterForm.hook'
 import './Converter.css'

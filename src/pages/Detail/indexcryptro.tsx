@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Routes, Route, useParams, Link, useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
 import { ICryptroChartRespone, ICryptroDetailRespone, } from "../../interface/cryptroDetail";
 import { cryptroDetailServices } from "../../service";
 import { addSign } from "../../utils/number";
@@ -8,7 +8,6 @@ import "./indexcryptro.css";
 import "../../utils/positiveNegative.css";
 import { MY_FAV_LIST } from "../../utils/constant";
 import { cryptsroChartService } from "../../service/cryptroChart";
-import { Chart as ChartJS } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import { Chart, LineController, LineElement, PointElement, LinearScale, Title , CategoryScale } from "chart.js";
 

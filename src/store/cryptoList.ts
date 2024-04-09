@@ -1,6 +1,5 @@
 import { create } from 'zustand'
 import { ICryptroDetailRespone } from '../interface/cryptroDetail'
-import { set } from 'react-hook-form'
 
 const initStore = {
     cryptro: {

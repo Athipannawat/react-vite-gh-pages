@@ -1,4 +1,3 @@
-import React from 'react'
 import { useSearchForm } from './SearchForm.hook'
 import './SearchForm.css'
 

@@ -1,4 +1,4 @@
-import { Axios, AxiosError, AxiosResponse } from "axios"
+import { AxiosError, AxiosResponse } from "axios"
 
 export interface IResponse{
     status: number | undefined,

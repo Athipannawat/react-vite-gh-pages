@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react'
-import { cryptroListServices,cryptroDetailServices } from '../../service/index'
-import { ICryptroDetailRespone } from '../../interface/cryptroDetail'
+import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
-import { useCryptoListStore } from '../../store/cryptoList'
-
 
 const useConverterForm = () => {
-    const { register, handleSubmit, watch, formState: {errors}  } = useForm()
+    const { register, watch  } = useForm()
     const keywordLeft = watch("SelectLeft")
     const keywordRight = watch("SelectRight")
     const keywordVolume = watch("Volume")

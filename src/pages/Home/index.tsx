@@ -13,7 +13,7 @@ const HomePage = () => {
   const { fetchCryptro } = useCryptoListStore()
 
   const [currentPage,setCurrentPage] = useState(1);
-  const [postsPerPage,setPostsPerPage] = useState(20);
+  const [postsPerPage] = useState(20);
 
   //getCurrent post
   const indexOfLastPost = currentPage * postsPerPage;
