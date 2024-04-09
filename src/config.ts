@@ -1,0 +1,1 @@
+export const BASE_GITHUB_URL = "/crypto-currency-app/";
